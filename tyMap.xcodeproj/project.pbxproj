@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B9034431CBD3119000C42DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9034421CBD3119000C42DD /* AppDelegate.swift */; };
+		5B9034451CBD3119000C42DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9034441CBD3119000C42DD /* ViewController.swift */; };
+		5B9034481CBD3119000C42DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9034461CBD3119000C42DD /* Main.storyboard */; };
+		5B90344A1CBD3119000C42DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9034491CBD3119000C42DD /* Assets.xcassets */; };
+		5B90344D1CBD3119000C42DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B90344B1CBD3119000C42DD /* LaunchScreen.storyboard */; };
+		5B9034581CBD3119000C42DD /* tyMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9034571CBD3119000C42DD /* tyMapTests.swift */; };
+		5B9034631CBD3119000C42DD /* tyMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9034621CBD3119000C42DD /* tyMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B9034541CBD3119000C42DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B9034371CBD3119000C42DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B90343E1CBD3119000C42DD;
+			remoteInfo = tyMap;
+		};
+		5B90345F1CBD3119000C42DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B9034371CBD3119000C42DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B90343E1CBD3119000C42DD;
+			remoteInfo = tyMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B90343F1CBD3119000C42DD /* tyMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tyMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9034421CBD3119000C42DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B9034441CBD3119000C42DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B9034471CBD3119000C42DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B9034491CBD3119000C42DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B90344C1CBD3119000C42DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B90344E1CBD3119000C42DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9034531CBD3119000C42DD /* tyMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tyMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9034571CBD3119000C42DD /* tyMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tyMapTests.swift; sourceTree = "<group>"; };
+		5B9034591CBD3119000C42DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B90345E1CBD3119000C42DD /* tyMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tyMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9034621CBD3119000C42DD /* tyMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tyMapUITests.swift; sourceTree = "<group>"; };
+		5B9034641CBD3119000C42DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B90343C1CBD3119000C42DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9034501CBD3119000C42DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B90345B1CBD3119000C42DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B9034361CBD3119000C42DD = {
+			isa = PBXGroup;
+			children = (
+				5B9034411CBD3119000C42DD /* tyMap */,
+				5B9034561CBD3119000C42DD /* tyMapTests */,
+				5B9034611CBD3119000C42DD /* tyMapUITests */,
+				5B9034401CBD3119000C42DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9034401CBD3119000C42DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B90343F1CBD3119000C42DD /* tyMap.app */,
+				5B9034531CBD3119000C42DD /* tyMapTests.xctest */,
+				5B90345E1CBD3119000C42DD /* tyMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9034411CBD3119000C42DD /* tyMap */ = {
+			isa = PBXGroup;
+			children = (
+				5B9034421CBD3119000C42DD /* AppDelegate.swift */,
+				5B9034441CBD3119000C42DD /* ViewController.swift */,
+				5B9034461CBD3119000C42DD /* Main.storyboard */,
+				5B9034491CBD3119000C42DD /* Assets.xcassets */,
+				5B90344B1CBD3119000C42DD /* LaunchScreen.storyboard */,
+				5B90344E1CBD3119000C42DD /* Info.plist */,
+			);
+			path = tyMap;
+			sourceTree = "<group>";
+		};
+		5B9034561CBD3119000C42DD /* tyMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B9034571CBD3119000C42DD /* tyMapTests.swift */,
+				5B9034591CBD3119000C42DD /* Info.plist */,
+			);
+			path = tyMapTests;
+			sourceTree = "<group>";
+		};
+		5B9034611CBD3119000C42DD /* tyMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B9034621CBD3119000C42DD /* tyMapUITests.swift */,
+				5B9034641CBD3119000C42DD /* Info.plist */,
+			);
+			path = tyMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B90343E1CBD3119000C42DD /* tyMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9034671CBD3119000C42DD /* Build configuration list for PBXNativeTarget "tyMap" */;
+			buildPhases = (
+				5B90343B1CBD3119000C42DD /* Sources */,
+				5B90343C1CBD3119000C42DD /* Frameworks */,
+				5B90343D1CBD3119000C42DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tyMap;
+			productName = tyMap;
+			productReference = 5B90343F1CBD3119000C42DD /* tyMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B9034521CBD3119000C42DD /* tyMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B90346A1CBD3119000C42DD /* Build configuration list for PBXNativeTarget "tyMapTests" */;
+			buildPhases = (
+				5B90344F1CBD3119000C42DD /* Sources */,
+				5B9034501CBD3119000C42DD /* Frameworks */,
+				5B9034511CBD3119000C42DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B9034551CBD3119000C42DD /* PBXTargetDependency */,
+			);
+			name = tyMapTests;
+			productName = tyMapTests;
+			productReference = 5B9034531CBD3119000C42DD /* tyMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B90345D1CBD3119000C42DD /* tyMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B90346D1CBD3119000C42DD /* Build configuration list for PBXNativeTarget "tyMapUITests" */;
+			buildPhases = (
+				5B90345A1CBD3119000C42DD /* Sources */,
+				5B90345B1CBD3119000C42DD /* Frameworks */,
+				5B90345C1CBD3119000C42DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B9034601CBD3119000C42DD /* PBXTargetDependency */,
+			);
+			name = tyMapUITests;
+			productName = tyMapUITests;
+			productReference = 5B90345E1CBD3119000C42DD /* tyMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9034371CBD3119000C42DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "余泽禹";
+				TargetAttributes = {
+					5B90343E1CBD3119000C42DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 77ZG5U6X8D;
+					};
+					5B9034521CBD3119000C42DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 77ZG5U6X8D;
+						TestTargetID = 5B90343E1CBD3119000C42DD;
+					};
+					5B90345D1CBD3119000C42DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 77ZG5U6X8D;
+						TestTargetID = 5B90343E1CBD3119000C42DD;
+					};
+				};
+			};
+			buildConfigurationList = 5B90343A1CBD3119000C42DD /* Build configuration list for PBXProject "tyMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B9034361CBD3119000C42DD;
+			productRefGroup = 5B9034401CBD3119000C42DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B90343E1CBD3119000C42DD /* tyMap */,
+				5B9034521CBD3119000C42DD /* tyMapTests */,
+				5B90345D1CBD3119000C42DD /* tyMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B90343D1CBD3119000C42DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B90344D1CBD3119000C42DD /* LaunchScreen.storyboard in Resources */,
+				5B90344A1CBD3119000C42DD /* Assets.xcassets in Resources */,
+				5B9034481CBD3119000C42DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9034511CBD3119000C42DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B90345C1CBD3119000C42DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B90343B1CBD3119000C42DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9034451CBD3119000C42DD /* ViewController.swift in Sources */,
+				5B9034431CBD3119000C42DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B90344F1CBD3119000C42DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9034581CBD3119000C42DD /* tyMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B90345A1CBD3119000C42DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9034631CBD3119000C42DD /* tyMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B9034551CBD3119000C42DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B90343E1CBD3119000C42DD /* tyMap */;
+			targetProxy = 5B9034541CBD3119000C42DD /* PBXContainerItemProxy */;
+		};
+		5B9034601CBD3119000C42DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B90343E1CBD3119000C42DD /* tyMap */;
+			targetProxy = 5B90345F1CBD3119000C42DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B9034461CBD3119000C42DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9034471CBD3119000C42DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B90344B1CBD3119000C42DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B90344C1CBD3119000C42DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B9034651CBD3119000C42DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B9034661CBD3119000C42DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B9034681CBD3119000C42DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tyMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.tyMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B9034691CBD3119000C42DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tyMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.tyMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B90346B1CBD3119000C42DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tyMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.tyMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tyMap.app/tyMap";
+			};
+			name = Debug;
+		};
+		5B90346C1CBD3119000C42DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tyMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.tyMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tyMap.app/tyMap";
+			};
+			name = Release;
+		};
+		5B90346E1CBD3119000C42DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tyMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.tyMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tyMap;
+			};
+			name = Debug;
+		};
+		5B90346F1CBD3119000C42DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tyMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuzeyu.tyMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tyMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B90343A1CBD3119000C42DD /* Build configuration list for PBXProject "tyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9034651CBD3119000C42DD /* Debug */,
+				5B9034661CBD3119000C42DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9034671CBD3119000C42DD /* Build configuration list for PBXNativeTarget "tyMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9034681CBD3119000C42DD /* Debug */,
+				5B9034691CBD3119000C42DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B90346A1CBD3119000C42DD /* Build configuration list for PBXNativeTarget "tyMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B90346B1CBD3119000C42DD /* Debug */,
+				5B90346C1CBD3119000C42DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B90346D1CBD3119000C42DD /* Build configuration list for PBXNativeTarget "tyMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B90346E1CBD3119000C42DD /* Debug */,
+				5B90346F1CBD3119000C42DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9034371CBD3119000C42DD /* Project object */;
+}
